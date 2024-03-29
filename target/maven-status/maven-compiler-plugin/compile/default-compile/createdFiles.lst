@@ -1,0 +1,5 @@
+com\demo\entites\Person.class
+com\demo\BootDemoAppApplication.class
+com\demo\controllers\PersonController.class
+com\demo\services\PersonService.class
+com\demo\repo\PersonRepo.class
