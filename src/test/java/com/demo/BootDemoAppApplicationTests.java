@@ -5,6 +5,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
@@ -12,9 +13,12 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 class BootDemoAppApplicationTests {
     private Calculator c = new Calculator();
 
+    @Autowired
+    private ApplicationContext context;
+
     @Test
     void contextLoads() {
-
+        assertNotNull(context, "Application context should not be null");
     }
 
     @Test
