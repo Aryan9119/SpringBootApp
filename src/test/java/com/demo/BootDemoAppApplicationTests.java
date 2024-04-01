@@ -22,7 +22,6 @@ class BootDemoAppApplicationTests {
     }
 
     @Test
-    @Disabled
     void testSum() {
         //expected
         int expectedResult = 17;
