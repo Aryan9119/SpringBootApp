@@ -56,14 +56,14 @@
                         <id>jacoco-initialize</id>
                         <goals>
                              <goal>prepare-agent</goal>
-                        <goals>
+                        </goals>
                     </execution>
                     <execution>
                         <id>jacoco-site</id>
                         <phase>package</phase>
                         <goals>
                              <goal>report</goal>
-                        <goals>
+                        </goals>
                     </execution>
                 </executions>
             </plugin>
